@@ -30,10 +30,7 @@ def health():
 # Route for home page
 @app.route('/')
 def index():
-    try:
-        return render_template('index.html')
-    except Exception as e:
-        return f"Error loading template: {str(e)}", 500
+    return render_template('home.html')   # <-- AWS default page hata diya
 
 
 @app.route('/predictdata', methods=['GET', 'POST'])
