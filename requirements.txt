@@ -7,3 +7,4 @@ catboost>=1.1.0
 xgboost>=1.7.0
 dill>=0.3.6
 flask>=2.3.0
+gunicorn>=21.2.0
