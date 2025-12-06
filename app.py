@@ -30,7 +30,7 @@ def health():
 # Route for home page
 @app.route('/')
 def index():
-    return render_template('home.html')   # <-- AWS default page hata diya
+    return render_template('index.html')   # <-- AWS default page hata diya
 
 
 @app.route('/predictdata', methods=['GET', 'POST'])
